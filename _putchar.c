@@ -7,7 +7,7 @@
  */
 int _putchar(char c)
 {
-	static char buffer[102];
+	static char buffer[1024];
 	static int i;
 
 	if (c == -1 || i >= 1024)
