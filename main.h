@@ -1,7 +1,8 @@
-#ifndef PRINT_F
-#define PRINT_F
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <unistd.h>
+#include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
 
@@ -16,7 +17,7 @@ int print_char(va_list);
 typedef struct _format
 {
         char type;
-	int (*f)(va_list);
+        int (*f)(va_list);
 } format_t;
 
-#endif // !PRINT_F
+#endif
