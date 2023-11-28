@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - function given char to stdout stream
+ * _putchar - function puts given char to stdout stream
  * @c: character to be put in stdout
  * Return: On success 1
  */
