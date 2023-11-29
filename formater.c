@@ -49,7 +49,8 @@ int type_checker(const char *str, va_list args, int *i)
 	int size, j, all;
 
 	format pakize[] = {
-	    {'s', print_string}, {'c', print_char}};
+	    {'s', print_string}, {'c', print_char},
+	    {'d', print_integer}, {'i', print_int}};
 
 	if (str[*i] == '\0')
 		return (-1);
