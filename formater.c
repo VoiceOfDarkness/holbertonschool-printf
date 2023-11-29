@@ -21,7 +21,7 @@ int string_parser(const char *format, va_list args)
 
 			args_len = type_checker(format, args, &i);
 			if (args_len == -1)
-				return -1;
+				return (-1);
 
 			size += args_len;
 		}
