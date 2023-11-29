@@ -2,7 +2,7 @@
 
 /**
  * print_string - Print string
- * @list: list.
+ * @str: string to print
  *
  * Return: String length.
  */

@@ -33,8 +33,8 @@ int buffer(char);
  */
 typedef struct _format
 {
-        char type;
-        int (*f)(va_list);
+	char type;
+	int (*f)(va_list);
 } format;
 
 #endif
