@@ -7,19 +7,22 @@
 #include <stdarg.h>
 #include <stdlib.h>
 
+/* print.c */
 int print(char *);
 
+/* _printf.c */
 int _printf(const char *, ...);
 
+/* formater.c */
 int string_parser(const char *, va_list);
 int type_checker(const char *, va_list, int *);
 
+/* print functions */
 int print_string(va_list);
 int print_char(va_list);
-
-
 int print_integer(va_list);
 
+/* _putchar.c */
 int _putchar(char);
 int buffer(char);
 

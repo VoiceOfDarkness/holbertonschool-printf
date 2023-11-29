@@ -1,5 +1,12 @@
 #include "main.h"
 
+
+/**
+ * string_parser - main loop in program
+ * @format: raw main string of program
+ * @args: given args of program
+ * Return: the size of total string
+ */
 int string_parser(const char *format, va_list args)
 {
 	int size, i, args_len;
@@ -30,6 +37,13 @@ int string_parser(const char *format, va_list args)
 	return (size);
 }
 
+/**
+ * type_checker - handles percents of string
+ * @str: raw main string of program
+ * @args: given args of program
+ * @i: pointer to current iterator of main string
+ * Return: size of argument
+ */
 int type_checker(const char *str, va_list args, int *i)
 {
 	int size, j, all;
