@@ -23,6 +23,8 @@ int print_char(va_list);
 int print_int(va_list);
 int print_decimal(va_list);
 
+char *citoa(long int num, int base);
+
 /* _putchar.c */
 int _putchar(char);
 int buffer(char);
