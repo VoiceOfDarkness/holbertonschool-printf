@@ -20,7 +20,8 @@ int type_checker(const char *, va_list, int *);
 /* print functions */
 int print_string(va_list);
 int print_char(va_list);
-int print_integer(va_list);
+int print_int(va_list);
+int print_decimal(va_list);
 
 /* _putchar.c */
 int _putchar(char);
