@@ -7,13 +7,11 @@
  */
 int print_int(va_list list)
 {
-        char *num;
-        int size;
+	char *num;
+	int size;
 
-        num = citoa(va_arg(list, int), 10);
-
-        size = print((num != NULL) ? num : "NULL");
-
-        return (size);
+	num = citoa(va_arg(list, int), 10);
+	size = print((num != NULL) ? num : "NULL");
+	return (size);
 }
 
