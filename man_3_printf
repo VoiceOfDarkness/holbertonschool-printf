@@ -1,0 +1,47 @@
+.TH MYPRINTF 3 "2023-12-01" "1.0" "MyPrintf Manual"
+.SH NAME
+myprintf \- A simple implementation of printf function
+.SH SYNOPSIS
+.B #include <stdio.h>
+.br
+.B #include <stdarg.h>
+.br
+.B int myprintf(const char *format, ...);
+.SH DESCRIPTION
+The
+.B myprintf
+function is a simplified version of the printf function in C. It supports the following format specifiers:
+.IP \fB%c\fP
+Prints a character.
+.IP \fB%s\fP
+Prints a string.
+.IP \fB%d, %i\fP
+Prints a signed decimal integer.
+.SH PARAMETERS
+.IP format
+A format string that can contain format specifiers.
+.IP ...
+Additional arguments corresponding to the format specifiers in the format string.
+.SH RETURN VALUE
+The number of characters written to the standard output.
+.SH EXAMPLES
+The following examples demonstrate the usage of myprintf:
+.IP
+.B #include <stdio.h>
+.br
+.B int main() {
+.br
+.B \ \ \ \ myprintf("Hello, %s! The answer is %d.\n", "world", 42);
+.br
+.B \ \ \ \ return 0;
+.br
+.B }
+.SH SEE ALSO
+.B printf(3), putchar(3), puts(3)
+.SH BUGS
+Currently, myprintf has limited format specifier support and may not cover all edge cases.
+.SH AUTHOR
+Magomed Abbasov (magomed@example.com)
+.SH COPYRIGHT
+Copyright (c) 2023, Magomed Abbasov. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
