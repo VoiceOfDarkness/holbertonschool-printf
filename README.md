@@ -2,10 +2,10 @@
 
 
 This custom printf function was developed by Magomed Abbasov and Abil Samedov for Holberton School. It supports the following format specifiers:
-- `%c`
-- `%s`
-- `%d`
-- `%i`
+- `%c` - prints one single asciiII character
+- `%s` - prints the array of characters (string)
+- `%d` - prints decimal number
+- `%i` - prints the value of type integer
 
 ## Table of Contents
 - [Usage](#usage)
