@@ -14,6 +14,11 @@ This custom printf function was developed by Magomed Abbasov and Abil Samedov fo
 
 ## Usage
 
+Prototype of function:
+```
+int _printf(const char *format, ...);
+```
+
 To use our printf function you just need to include our head file "main.h":
 ```
 #include "main.h"
